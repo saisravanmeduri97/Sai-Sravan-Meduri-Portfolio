@@ -32,6 +32,19 @@ const rotatingTitles = [
   "CI/CD • Reliability • Automation • AI Platforms",
 ];
 
+const OutlineButton = ({
+  children,
+  className = "",
+  ...props
+}: React.ButtonHTMLAttributes<HTMLButtonElement>) => (
+  <button
+    className={`px-5 py-2 rounded-xl font-medium border border-white/20 text-white transition hover:bg-white/10 ${className}`}
+    {...props}
+  >
+    {children}
+  </button>
+);
+
 const metrics = [
   { label: "Cloud Platforms", value: "AWS / GCP / Azure" },
   { label: "Orchestration", value: "Kubernetes / GitOps" },
