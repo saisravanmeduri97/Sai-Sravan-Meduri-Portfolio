@@ -320,26 +320,24 @@ export default function DevOpsPortfolioHomepage() {
               Contact Me
             </Button>
             <a href="/Sravan-DevOps.pdf" target="_blank" rel="noopener noreferrer">
-              <Button
-                variant="outline"
+              <OutlineButton
                 className="rounded-2xl border-white/15 bg-transparent text-white hover:bg-white/10"
               >
                 <Download className="mr-2 h-4 w-4" />
                 Resume
-              </Button>
+              </OutlineButton>
             </a>
             <a
               href="https://github.com/saisravanmeduri97"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button
-                variant="outline"
+              <OutlineButton
                 className="rounded-2xl border-white/15 bg-transparent text-white hover:bg-white/10"
               >
                 <ExternalLink className="mr-2 h-4 w-4" />
                 GitHub
-              </Button>
+              </OutlineButton>
             </a>
           </div>
         </header>
@@ -646,13 +644,12 @@ export default function DevOpsPortfolioHomepage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button
-                    variant="outline"
+                  <OutlineButton
                     className="rounded-2xl border-white/15 bg-transparent text-white hover:bg-white/10"
                   >
                     GitHub
                     <ExternalLink className="ml-2 h-4 w-4" />
-                  </Button>
+                  </OutlineButton>
                 </a>
               </div>
             </CardContent>
